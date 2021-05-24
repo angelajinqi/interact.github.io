@@ -1,0 +1,200 @@
+.flag{
+	display:grid;
+	/*position:absolute;
+	display: inline-block;*/
+
+}
+
+/*start of sweden flag*/
+.flag-sweden{
+	width: 320px;
+	height: 200px;
+	border:1px solid black;
+	grid-template-columns:100px 40px 180px;
+	grid-template-rows:80px 40px 80px;
+
+}
+
+.flag-sweden div{
+	/*border:1px solid black;*/
+}
+
+.grid-item-blue1{
+ 	background-color:#1167b1;
+
+}
+
+.grid-item-yellowv-vertical{
+ 	background-color:#FCD12A;
+ 	grid-column-start:2;
+ 	grid-row-end:span 3;
+ 	border:none;
+}
+.grid-item-blue2{
+ 	background-color:#1167b1;
+
+}
+
+.grid-item-yellowv-horizontal{
+ 	background-color:#FCD12A;
+ 	grid-row-start: 2
+ 	
+
+}
+
+.grid-item-yellowv-horizontal2{
+ 	background-color:#FCD12A;
+
+}
+
+
+.grid-item-blue3{
+ 	background-color:#1167b1;
+
+}
+.grid-item-blue4{
+ 	background-color:#1167b1;
+
+}
+
+/*end of sweden flag*/
+
+
+/*start of finland flag*/
+.flag-finland{
+	width: 360px;
+	height: 260px;
+	border:1px solid black;
+	grid-template-columns:100px 60px 200px;
+	grid-template-rows:100px 60px 100px;
+	margin-top: 20px;
+}
+
+.flag-finland div{
+	/*border:1px solid black;*/
+}
+
+.grid-item-blue-vertical{
+ 	background-color:#1167b1;
+ 	grid-column-start:2;
+ 	grid-row-end:span 3;
+	border:none;
+
+}
+/*end of finland flag*/
+
+
+/*start of denmark flag*/
+.flag-denmark{
+	width: 340px;
+	height: 280px;
+	/*border:1px solid black;*/
+	grid-template-columns:120px 40px 180px;
+	grid-template-rows:120px 40px 120px;
+	margin-top: 50px;
+}
+
+
+.grid-item-red{
+ 	background-color:red;
+
+}
+
+.grid-item-white-vertical{
+ 	background-color:white;
+ 	grid-column-start:2;
+ 	grid-row-end:span 3;
+	border:none;
+
+}
+.grid-item-red{
+ 	background-color:red;
+
+}
+
+/*end of denmark flag*/
+
+
+/*start of iceland flag*/
+.flag-iceland{
+	width: 500px;
+	height: 320px;
+	/*border:1px solid black;*/
+	grid-template-columns:160px 40px 300px;
+	grid-template-rows:140px 40px 140px;
+	margin-top: 50px;
+}
+
+.grid-item-bluea{
+ 	background-color:#1167b1;
+ 	border:15px solid white;
+ 	border-top:none;
+ 	border-left:none;
+
+}
+
+.grid-item-red-vertical{
+ 	background-color:red;
+ 	grid-column-start:2;
+ 	grid-row-end:span 3;
+	/*border:10px solid white;*/
+}
+
+.grid-item-blueb{
+ 	background-color:#1167b1;
+ 	border:15px solid white;
+ 	border-top:none;
+ 	border-right:none;
+	} 	
+
+	.grid-item-bluec{
+ 	background-color:#1167b1;
+ 	border:15px solid white;
+ 	border-bottom:none;
+ 	border-left:none;
+	} 	
+
+	.grid-item-blued{
+ 	background-color:#1167b1;
+ 	border:15px solid white;
+ 	border-bottom:none;
+ 	border-right:none;
+	} 	
+/*start of own flag*/
+
+.flag-own{
+	width: 430px;
+	height: 300px;
+	/*border:1px solid black;*/
+	grid-template-columns:100px 40px 240px 50;
+	grid-template-rows:10px 250px 20px ;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+/*.grid-item-bluee{
+ 	background-color:#6787e7;
+grid-column-start:2;
+ 	grid-row-end:span 3;
+	} */	
+
+	.grid-item-bluee{
+ 	background-color:#1167b1;
+
+	} 	
+
+	.grid-item-orange{
+ 	background-color:#FCD12A;
+ 	border: 10px solid white
+
+	} 	
+
+	.grid-item-bluee2{
+ 	background-color:#1167b1;
+ 	grid-row:2/3;
+	} 	
+
+	.grid-item-bluee2{
+ 	background-color:#1167b1;
+ 	grid-column:3/3;
+	} 	
+}
